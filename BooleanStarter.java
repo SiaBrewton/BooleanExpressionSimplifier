@@ -1,26 +1,15 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
+
 /**
-* CSC 204 – Boolean Simplifier Starter Program
-*
-* This is ONLY a starter.
-* Students MUST:
-* - Implement all Boolean algebra rules
-* - Add simplification logic
-* - Add step-by-step tracing
-* - Add more tests
-*
-* Provided:
+CSC 204 – Boolean Simplifier Starter Program Project 
+/* Provided:
 * - Basic AST node classes
 * - Simple parser (char[] based)
 * - Basic simplify() structure (EMPTY)
-*
-* Not provided:
-* - ALL Boolean rules (students write these)
-* - Full simplifier
-* - Full step trace system
 */
+
 public class BooleanStarter {
 // ======== AST NODES ========
 interface Node {}
@@ -128,21 +117,20 @@ return c >= 'A' && c <= 'Z';
 }
 }
 
-// ======== SIMPLIFIER (STUDENT WORK) ========
+// ======== SIMPLIFIER (Sia's WORK) ========
 // STUDENTS MUST:
 // - Implement ALL Boolean rules from lecture
-// - Add recursive simplification
+// - Tracing
 // - Implement:
-// * Identity laws
 // * Null laws
+//* Identity laws
 // * Complement laws
 // * Idempotent laws
-// * Absorption
+// * Absorption law
+//* Distributive Law
 // * Involution
 // - Return simplified Node
-// - Add step tracing for each rule
-//
-// For now, return input unchanged.
+
 
 
 //Tracing 
